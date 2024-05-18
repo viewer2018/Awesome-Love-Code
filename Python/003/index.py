@@ -160,7 +160,7 @@ def page0():
     turtle.penup()
     turtle.goto(-350, 0)
     turtle.color('black')
-    turtle.write('专属于我们的情人节', font=('宋体', 60, 'normal'))
+    turtle.write('生日是专属于我们的情人节', font=('宋体', 60, 'normal'))
     time.sleep(3)
  
  
