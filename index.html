@@ -8,7 +8,9 @@
 function loadRandomPage() {  
     // 假设你的静态页面位于同一个目录下，并且命名为page1.html, page2.html, ..., page10.html  
     var pages = ['/Web/001/index.html','/Web/002/index.html','/Web/003/index.html','/Web/004/index.html','/Web/005/index.html','/Web/006/index.html','/Web/007/index.html','/Web/008/index.html','/Web/009/index.html','/Web/010/index.html','/Web/011/index.html','/Web/012/index.html','/Web/013/index.html','/Web/014/index.html','/Web/015/index.html','/Web/016/index.html','/Web/017/index.html','/Web/018/index.html','/Web/019/index.html','/Web/020/index.html','/Web/021/index.html','/Web/022/index.html','/Web/023/index.html','/Web/024/index.html','/Web/025/index.html','/Web/026/index.html','/Web/027/index.html','/Web/028/index.html','/Web/029/index.html','/Web/030/index.html','/Web/031/index.html','/Web/032/index.html'];  
+    
     var randomIndex = Math.floor(Math.random() * pages.length);  
+    randomIndex=17;
     var randomPage = pages[randomIndex];  
     document.getElementById('randomIframe').src = randomPage;  
 }  
