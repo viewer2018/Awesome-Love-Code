@@ -109,7 +109,9 @@
             list.forEach((item, index) => {
               const listItem = document.createElement('li');
             //   listItem.textContent = `File ${index + 1}`;
-              listItem.textContent = listData[index+1];
+              listItem.textContent = listData[index];
+              console.log(index);
+              console.log(item);
               listItem.onclick = function() {
                     toggleMenu();
                     loadContent(item);
